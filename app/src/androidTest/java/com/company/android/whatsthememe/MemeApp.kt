@@ -34,11 +34,10 @@
 
 package com.company.android.whatsthememe
 
-class MemeTestApp : MemeApp() {
+import android.app.Application
 
-  var url = "http://127.0.0.1:8080"
+open class MemeApp : Application() {
+  private val url = "http://127.0.0.1:8080"
 
-  override fun getBaseUrl(): String {
-    return url
-  }
+  open fun getBaseUrl() = url
 }

@@ -13,7 +13,7 @@ android {
     versionName "1.0"
 
     // DONE 1 : replace with custom runner
-    testInstrumentationRunner "com.company.android.whatsthememe.MockTestRunner"
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
   }
 
   buildTypes {
