@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">What\'s The Meme</string>
+  <string name="something_went_wrong">Something went wrong</string>
+  <string name="there_seems_to_be_no_data">There seems to be no data :(</string>
+</resources>
